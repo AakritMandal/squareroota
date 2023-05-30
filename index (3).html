@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>SQUARE ROOT</title>
+    </head>
+    <style>
+      .naa{
+        font-size:20px;
+        color:red;
+        font-weight: bolder;
+        text-decoration: underline;
+    background-color:black;
+    padding: 12px 20px;
+    border:2px;
+    border:2px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+    width:100%;
+    align-items: center;
+        }
+      .bbbb{
+        opacity:0.8;
+        background-color:#ccc;
+        position:fixed;
+        width:100%;
+        height:100%;
+        top:0px;
+        left:0px;
+        z-index:1000;
+        ;
+    }
+    </style>
+    <body>
+        <div class="bbbb">
+          <button onclick="myFunction()" class="naa">CLICK FOR SQUARE ROOT</button>
+       </div>
+        <script>
+        function myFunction() {
+            var a = parseInt(prompt ("Enter the number: "));
+            var sqrt;
+            sqrt =Math.sqrt(a);
+            prompt ("Square root is ", (sqrt));
+        }
+    </script>
+    </body>
+</html>
